@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>GAME</title>
+	<script type="text/javascript" src="js/phaser.js"></script>
+
+	<script src="js/Boot.js"></script>
+	<script src="js/Preload.js"></script>
+	<script src="js/GameLogic.js"></script>
+	
+
+	<style>
+		body {
+			background: #fff;
+			margin: 0 auto;
+			padding: 0;
+			text-align: center;
+		}
+
+		#gamecontainer {
+			margin: 0 auto;
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+<div id="gamecontainer"></div>
+
+<script>
+	window.onload = function() {
+		var game = new Phaser.Game(600, 800, Phaser.AUTO, 'gamecontainer');
+
+		game.state.add('Boot', BasicGame.Boot);
+		game.state.add('Preload', BasicGame.Preload);
+		game.state.add('GameLogic', BasicGame.GameLogic);
+
+		game.state.start('Boot');
+	};
+ </script>
+
+
+</body>
+</html>
