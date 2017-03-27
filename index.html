@@ -8,6 +8,7 @@
 	<script src="js/Boot.js"></script>
 	<script src="js/Preload.js"></script>
 	<script src="js/GameLogic.js"></script>
+	<script src='js/Congratulations.js'></script>
 	
 
 	<style>
@@ -34,6 +35,7 @@
 		game.state.add('Boot', BasicGame.Boot);
 		game.state.add('Preload', BasicGame.Preload);
 		game.state.add('GameLogic', BasicGame.GameLogic);
+		game.state.add('Congratulations', BasicGame.Congratulations);
 
 		game.state.start('Boot');
 	};

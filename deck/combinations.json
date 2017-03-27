@@ -1,0 +1,92 @@
+{"frames": [
+
+{
+	"filename": "flush.png",
+	"frame": {"x":771,"y":4,"w":586,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":586,"h":256},
+	"sourceSize": {"w":586,"h":256}
+},
+{
+	"filename": "four.png",
+	"frame": {"x":1361,"y":4,"w":637,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":637,"h":256},
+	"sourceSize": {"w":637,"h":256}
+},
+{
+	"filename": "full_house.png",
+	"frame": {"x":911,"y":524,"w":1017,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1017,"h":256},
+	"sourceSize": {"w":1017,"h":256}
+},
+{
+	"filename": "high.png",
+	"frame": {"x":4,"y":524,"w":903,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":903,"h":256},
+	"sourceSize": {"w":903,"h":256}
+},
+{
+	"filename": "pair.png",
+	"frame": {"x":357,"y":4,"w":410,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":410,"h":256},
+	"sourceSize": {"w":410,"h":256}
+},
+{
+	"filename": "royal_flush.png",
+	"frame": {"x":4,"y":784,"w":1422,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1422,"h":256},
+	"sourceSize": {"w":1422,"h":256}
+},
+{
+	"filename": "set.png",
+	"frame": {"x":4,"y":4,"w":349,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":349,"h":256},
+	"sourceSize": {"w":349,"h":256}
+},
+{
+	"filename": "straight.png",
+	"frame": {"x":4,"y":264,"w":815,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":815,"h":256},
+	"sourceSize": {"w":815,"h":256}
+},
+{
+	"filename": "straight_flush.png",
+	"frame": {"x":4,"y":1044,"w":1728,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1728,"h":256},
+	"sourceSize": {"w":1728,"h":256}
+},
+{
+	"filename": "two_pairs.png",
+	"frame": {"x":823,"y":264,"w":902,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":902,"h":256},
+	"sourceSize": {"w":902,"h":256}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "combinations.png",
+	"format": "RGBA8888",
+	"size": {"w":2002,"h":1304},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:714dd566d44b4936a6f26e425ca0bfec:3bec71b5a4b2a7b9d04ebe9a666a5220:c1cc297e25f6b5b1729052d0d59a755f$"
+}
+}

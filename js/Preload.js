@@ -15,7 +15,9 @@ BasicGame.Preload.prototype = {
 
 		this.load.setPreloadSprite(this.preloadBar);
 
-		this.load.atlas('textures', 'assets/txtrAtlas/texture1.png', 'assets/txtrAtlas/texture1.json');
+		this.load.atlas('objects', 'assets/txtrAtlas/objects.png', 'assets/txtrAtlas/objects.json');
+		this.load.atlas('deck', 'assets/txtrAtlas/deck.png', 'assets/txtrAtlas/deck.json');
+		this.load.atlas('combinations', 'assets/txtrAtlas/combinations.png', 'assets/txtrAtlas/combinations.json');
 	},
 
 	create: function() {
